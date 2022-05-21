@@ -144,7 +144,7 @@
 
 
 // Name displayed in the LCD "Ready" message and Info menu
-#define CUSTOM_MACHINE_NAME "Lolo TTBlueR"
+#define CUSTOM_MACHINE_NAME "Lolo3d TTBlueR"
 
 // Printer's unique ID, used by some programs to differentiate between machines.
 // Choose your own or use a service like https://www.uuidgenerator.net/version4
