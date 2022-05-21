@@ -1,5 +1,10 @@
 # Marlin_TTbluer_lvgl
-Marlin for Lolo3d ttbluer
+Marlin for Lolo3d TwoTreeBluer
+mks robin v1.2 tft35
+tmc2225_standalone
+lvgl
+wifi mks1.1
+
 
 # Marlin 3D Printer Firmware
 
