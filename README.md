@@ -3,7 +3,8 @@ Marlin for Lolo3d TwoTreeBluer
 
 mks robin v1.2 tft35
 tmc2225_standalone
-lvgl
+uses heater2 to control fan_controler 
+lvgl, -> bed points 
 wifi mks1.1
 
 

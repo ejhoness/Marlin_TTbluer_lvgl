@@ -44,6 +44,7 @@ void disp_language_init();
 #define LANG_GREEK            11
 #define LANG_ITALY            12
 #define LANG_PORTUGUESE       13
+#define LANG_PORTUGUESEBR     14
 
 #define MULTI_LANGUAGE_ENABLE   1
 #define MULTI_LANGUAGE_DISABLE  0
