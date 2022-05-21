@@ -1,4 +1,4 @@
-make --dry-run --always-make --keep-going --print-directory
+make --dry-run --keep-going --print-directory
 make: Entering directory '/home/user/Downloads/TwoTreesBluer/gitmarlinttbluer/Marlin_TTbluer_lvgl'
 echo "Tasks for local development:"
 echo "* tests-single-ci:             Run a single test from inside the CI"
