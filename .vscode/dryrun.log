@@ -1,0 +1,23 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/user/Downloads/TwoTreesBluer/gitmarlinttbluer/Marlin_TTbluer_lvgl'
+echo "Tasks for local development:"
+echo "* tests-single-ci:             Run a single test from inside the CI"
+echo "* tests-single-local:          Run a single test locally"
+echo "* tests-single-local-docker:   Run a single test locally, using docker-compose"
+echo "* tests-all-local:             Run all tests locally"
+echo "* tests-all-local-docker:      Run all tests locally, using docker-compose"
+echo "* setup-local-docker:          Setup local docker-compose"
+echo ""
+echo "Options for testing:"
+echo "  TEST_TARGET          Set when running tests-single-*, to select the"
+echo "                       test. If you set it to ALL it will run all "
+echo "                       tests, but some of them are broken: use "
+echo "                       tests-all-* instead to run only the ones that "
+echo "                       run on GitHub CI"
+echo "  ONLY_TEST            Limit tests to only those that contain this, or"
+echo "                       the index of the test (1-based)"
+echo "  VERBOSE_PLATFORMIO   If you want the full PIO output, set any value"
+echo "  GIT_RESET_HARD       Used by CI: reset all local changes. WARNING:"
+echo "                       THIS WILL UNDO ANY CHANGES YOU'VE MADE!"
+make: Leaving directory '/home/user/Downloads/TwoTreesBluer/gitmarlinttbluer/Marlin_TTbluer_lvgl'
+ 
