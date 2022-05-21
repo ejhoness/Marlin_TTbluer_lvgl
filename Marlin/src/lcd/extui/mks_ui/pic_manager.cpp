@@ -136,9 +136,9 @@ static FSTR_P const assets[] = {
   // Manual Level screen (only if auto level is disabled)
   #if DISABLED(AUTO_BED_LEVELING_BILINEAR)
     F("bmp_leveling1.bin"),
-    F("bmp_leveling2.bin"),
-    F("bmp_leveling3.bin"),
     F("bmp_leveling4.bin"),
+    F("bmp_leveling3.bin"),
+    F("bmp_leveling2.bin"),
     F("bmp_leveling5.bin"),
   #endif
 
@@ -167,7 +167,7 @@ static FSTR_P const assets[] = {
   #endif
 
   #if HAS_LOGO_IN_FLASH
-    F("bmp_logo.bin"),
+    F(".bin"),
   #endif
 
   // Settings screen
