@@ -1,4 +1,4 @@
-# Marlin_TTbluer_lvgl
+# Marlin Two Tree bluer lvgl
 Marlin for Lolo3d TwoTreeBluer
 
 mks robin v1.2 tft35
